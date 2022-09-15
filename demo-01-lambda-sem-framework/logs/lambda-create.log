@@ -1,0 +1,28 @@
+{
+    "FunctionName": "hello-cli",
+    "FunctionArn": "arn:aws:lambda:us-east-1:499670775636:function:hello-cli",
+    "Runtime": "nodejs16.x",
+    "Role": "arn:aws:iam::499670775636:role/lambda-exemplo",
+    "Handler": "index.handler",
+    "CodeSize": 325,
+    "Description": "",
+    "Timeout": 3,
+    "MemorySize": 128,
+    "LastModified": "2022-08-09T05:15:04.430+0000",
+    "CodeSha256": "hOCsb+CmfBzY1MJdSwkWzu7Rig8HYHnUIZU7W0xy9PM=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "0e643791-a984-472e-bc8e-3fca2e827b42",
+    "State": "Pending",
+    "StateReason": "The function is being created.",
+    "StateReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    }
+}

@@ -1,0 +1,22 @@
+service: layers-nodejs-modules
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  hello:
+    handler: handler.hello
+  events: 
+    - http: 
+        path: 'hello'
+        method: 'get'
+  layers;
+
+layers:
+  NodeModules:
+    path: layer
+    compatibleRunTimes:
+      - nodejs14.x
